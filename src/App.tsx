@@ -1,11 +1,10 @@
-
+import { Form } from "./components/Form/Form";
+import { Wrapper } from "./ui/styles";
 
 export function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Wrapper>
+      <Form />
+    </Wrapper>
   );
 }
-
-
