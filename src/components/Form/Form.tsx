@@ -10,7 +10,7 @@ export const Form = () => {
   const persons = useInput();
   const [tipsValue, setTipsValue] = useState<IOption>(options[0]);
   const [total, setTotal] = useState<number>(0);
-  const [isDisabled, setIsDisabled] = useState<boolean>(false);
+  const [isDisabled, setIsDisabled] = useState<boolean>(true);
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>): void => {
     event.preventDefault();

@@ -11,8 +11,18 @@ const StyledButton = styled.button`
   line-height: 35px;
   letter-spacing: -0.30000001192092896px;
   text-align: center;
-  color: #FFFFFF;
-  border:0px
+  color: #ffffff;
+  border: 0px;
+
+  &:disabled {
+    opacity: 0.5;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    background: ${Color.LightBlue};
+  }
 `;
 
 export { StyledButton };
