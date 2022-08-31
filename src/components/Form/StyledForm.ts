@@ -44,7 +44,7 @@ const Description = styled.p`
 `;
 
 const Total = styled.div`
-  width: 133px;
+  width: 95%;
   height: 35px;
   font-family: "Noto Sans SC";
   font-weight: 500;
@@ -52,8 +52,7 @@ const Total = styled.div`
   line-height: 35px;
   letter-spacing: -0.3px;
   color: #000000;
-  text-align: right;
-  align-self: flex-start;
+  text-align: left;
   margin-bottom: 45px;
 
   ${Media.MD} {

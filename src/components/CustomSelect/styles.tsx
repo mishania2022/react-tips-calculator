@@ -1,7 +1,6 @@
 import { StylesConfig } from "react-select";
 import { IOption } from "../../ui/types";
 
-
 export const CustomStyles: StylesConfig<IOption> = {
   container: (styles) => ({
     ...styles,
@@ -12,9 +11,12 @@ export const CustomStyles: StylesConfig<IOption> = {
     ...styles,
     textAlign: "center",
   }),
-  menuList: (styles) => ({
+  singleValue: (styles) => ({
     ...styles,
-    background: "yellow",
+    marginLeft:"40px"
+  }),
+  menuList: (styles) => ({
+    ...styles,    
   }),
 
   option: (styles) => ({
@@ -25,7 +27,6 @@ export const CustomStyles: StylesConfig<IOption> = {
   control: (styles) => ({
     ...styles,
     borderRadius: "30px",
-    // background: Color.White,
     padding: "15px",
     border: "none",
   }),
