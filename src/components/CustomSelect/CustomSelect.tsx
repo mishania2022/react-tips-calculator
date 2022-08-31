@@ -1,10 +1,7 @@
 import Select, { SingleValue } from "react-select";
+import { IOption } from "../../ui/types";
 import { CustomStyles } from "./styles";
 
-export interface IOption {
-  value: number;
-  readonly label: string;
-}
 export const options: IOption[] = [
   { value: 10, label: "10%" },
   { value: 15, label: "15%" },

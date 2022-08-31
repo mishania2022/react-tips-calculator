@@ -1,7 +1,8 @@
 import { FormEvent, useEffect, useState } from "react";
 import { useInput } from "../../hooks/useInput";
+import { IOption } from "../../ui/types";
 import { Button } from "../Button/Button";
-import { CustomSelect, IOption, options } from "../CustomSelect/CustomSelect";
+import { CustomSelect, options } from "../CustomSelect/CustomSelect";
 import { Input } from "../Input/Input";
 import { Description, StyledForm, Title, Total } from "./StyledForm";
 

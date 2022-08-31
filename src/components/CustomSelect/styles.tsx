@@ -1,5 +1,6 @@
 import { StylesConfig } from "react-select";
-import { IOption } from "./CustomSelect";
+import { IOption } from "../../ui/types";
+
 
 export const CustomStyles: StylesConfig<IOption> = {
   container: (styles) => ({
